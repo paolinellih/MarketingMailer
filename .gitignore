@@ -1,0 +1,81 @@
+## .NET Core / .NET 5+
+bin/
+obj/
+out/
+artifacts/
+
+## Build results
+*.dll
+*.exe
+*.app
+*.msi
+*.nupkg
+*.snupkg
+
+## Rider
+.idea/
+
+## VS Code
+.vscode/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## ASP.NET Core
+wwwroot/
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Logs
+*.log
+logs/
+
+## Tests
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.test.json
+*.trx
+
+## Publish output
+publish/
+
+## Dependency folders
+node_modules/
+packages/
+bower_components/
+
+## DotCover
+*.dotCover
+
+## ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Tye
+.tye/
+
+## EF Core Migrations (if using snapshots and want to ignore them)
+**/Migrations/*Snapshot.cs
+
+## Local DB
+*.mdf
+*.ldf
+*.ndf
+
+## Environment files
+.env
+.env.*
+
+# Ignore by name if necessary
+# config.local.json
+
